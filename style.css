@@ -113,3 +113,10 @@
     width: 40px;
     padding: 0.2rem;
   }
+
+  #privacy{
+    padding-bottom: 2rem;
+    background-color: #454547;
+    display: block;
+    color: var(--green);
+  }
