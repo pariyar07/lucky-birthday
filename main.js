@@ -34,3 +34,5 @@ checkButton.addEventListener("click", () => {
     showMessage("Please enter both the fields and see 🤞");
   }
 });
+
+alert("We do not store any data. For more information visit privacy policy page.")
