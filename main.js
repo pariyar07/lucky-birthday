@@ -15,9 +15,9 @@ const calculateSum = (date) => {
 const checkIsNumberLucky = (sumOfDate, numberToCheck) => {
   console.log(sumOfDate, numberToCheck);
   if (sumOfDate % numberToCheck === 0) {
-    return showMessage(`${numberToCheck} is a lucky number!!👍`);
+    return showMessage(`${numberToCheck} is a lucky 👍`);
   }
-  showMessage(`${numberToCheck} is not that lucky 👎`);
+  showMessage(`${numberToCheck} is not lucky 👎`);
 };
 
 const showMessage = (message) => {
@@ -31,7 +31,7 @@ checkButton.addEventListener("click", () => {
     const sumOfDate = calculateSum(date);
     checkIsNumberLucky(sumOfDate, numberToCheck);
   } else {
-    showMessage("Please enter both the fields and see 🤞");
+    showMessage("Please enter both the fields.");
   }
 });
 
